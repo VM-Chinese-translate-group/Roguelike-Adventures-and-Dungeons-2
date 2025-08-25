@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "curios:crown"
+    },
+    "title": {
+      "text": "恶魔猎手"
+    },
+    "description": {
+      "text": "击败5星级精英怪。会解锁一个特殊的头衔！"
+    }
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{ForgeCaps:{\"champions:champion\":{tier:5}}}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
