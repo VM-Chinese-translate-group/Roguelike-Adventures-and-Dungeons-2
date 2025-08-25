@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "iceandfire:dread_queen_sword",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "text": "悚怖捍卫者",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "击败Large Dread Gate并获得悚怖女皇魔剑（完成这个进度可以获得特别头衔！）"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "iceandfire:iceandfire/dragonsteel",
+  "criteria": {
+    "dreadsteel_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "iceandfire:dread_queen_sword"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dreadsteel_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 666
+  }
+}

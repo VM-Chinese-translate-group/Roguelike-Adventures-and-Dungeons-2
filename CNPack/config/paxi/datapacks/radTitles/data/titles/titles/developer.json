@@ -1,0 +1,6 @@
+{
+  "type": "command",
+  "rarity": "common",
+  "defaultDisplay": "§rthe §c§lD§6§le§e§lv§a§le§d§ll§b§lo§d§lp§c§le§6§lr",
+  "flavorText": "给予帮助开发本包的玩家。请不要用这个头衔来冒充开发者。"
+}
