@@ -1,0 +1,3520 @@
+{
+	id: "0399220027D545F6"
+	group: "0FF98225FE921275"
+	order_index: 1
+	filename: "alexs_mobs"
+	title: "充满敌意的世界"
+	icon: {
+		id: "rats:rat_upgrade_warrior"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -8.5d
+			description: ["灰熊有时会随机掉落它们的毛发。"]
+			dependencies: ["4E20E64264B2AA55"]
+			id: "11AD9C3E6F7ED206"
+			tasks: [{
+				id: "5600BE1C666EA251"
+				type: "item"
+				item: "alexsmobs:bear_fur"
+			}]
+			rewards: [{
+				id: "340E06F7124FEBEF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.5d
+			y: 1.5d
+			description: ["走鹃会在与响尾蛇...或你战败后掉落这些东西。"]
+			dependencies: ["32F7D28F7B29709C"]
+			id: "7462427AC1D865C7"
+			tasks: [{
+				id: "062115DFB9A8E0A6"
+				type: "item"
+				item: "alexsmobs:roadrunner_feather"
+			}]
+			rewards: [{
+				id: "7362384A28563B41"
+				type: "item"
+				item: "alexsmobs:roadrunner_feather"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 3.0d
+			description: ["这些含有走鹃羽毛的鞋子能让穿戴者在沙子上跑的更快。"]
+			dependencies: ["7462427AC1D865C7"]
+			id: "12976ADEDD3B9090"
+			tasks: [{
+				id: "12F81678685F16CD"
+				type: "item"
+				item: {
+					id: "alexsmobs:roadrunner_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "572BCFB7DCCC3B47"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -9.5d
+			y: 14.0d
+			description: ["骨蛇跳出熔岩并被杀死后的掉落物。"]
+			dependencies: ["6C2B0968097E6A03"]
+			id: "15132115F40EF4EA"
+			tasks: [{
+				id: "71619495E5032397"
+				type: "item"
+				item: "alexsmobs:bone_serpent_tooth"
+			}]
+			rewards: [{
+				id: "3E1A49BB8521AFF7"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 15.0d
+			description: ["这种特殊的药水能让你在熔岩中拥有像在水下一样的视觉。"]
+			dependencies: ["15132115F40EF4EA"]
+			id: "2092B6A1EE21D018"
+			tasks: [{
+				id: "72DEF711876FB75D"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:lava_vision"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C2755CFD1E314F1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -6.0d
+			y: -7.0d
+			description: ["瞪羚被杀死后的掉落物，但它们也可能会掉落一些羊肉。"]
+			dependencies: ["617FBFA90048602D"]
+			id: "1561DE019D318A18"
+			tasks: [{
+				id: "7ABF08CE502BA3D7"
+				type: "item"
+				item: "alexsmobs:gazelle_horn"
+			}]
+			rewards: [{
+				id: "23142A2F01E41DEC"
+				type: "item"
+				item: "minecraft:mutton"
+				count: 4
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["在幼年鳄鱼成长后或成年鳄鱼被杀后掉落。"]
+			dependencies: ["4B89A8800535AB16"]
+			id: "2FBC1196F9B59DF7"
+			tasks: [{
+				id: "6C695EDB244719DB"
+				type: "item"
+				item: "alexsmobs:crocodile_scute"
+			}]
+			rewards: [{
+				id: "65E65E9D89D5AB31"
+				type: "item"
+				item: "alexsmobs:crocodile_scute"
+				count: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: ["这件鳄鱼制护甲能给你更多保护，也会提升你的游泳速度。"]
+			dependencies: ["2FBC1196F9B59DF7"]
+			id: "7B74EDBD46057811"
+			tasks: [{
+				id: "55B1F5C0010212AB"
+				type: "item"
+				item: {
+					id: "alexsmobs:crocodile_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "641B159A3198F44C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "18EC327014C28237"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -1.5d
+			description: ["苍蝇被杀后掉落的蛆。"]
+			dependencies: ["49AB71E75762D0B9"]
+			id: "042E30144F9A1D2A"
+			tasks: [{
+				id: "2CFDD31640066490"
+				type: "item"
+				item: "alexsmobs:maggot"
+			}]
+			rewards: [{
+				id: "20E0157B26AF049E"
+				type: "item"
+				item: "alexsmobs:maggot"
+				count: 3
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			description: ["丛林树叶的稀有掉落物。能够用于制作简单农业模组（Simple Farming）的香蕉树。"]
+			id: "2CF3F2F094B0D3B1"
+			tasks: [{
+				id: "2F2509E78CBF66D8"
+				type: "item"
+				item: "alexsmobs:banana"
+			}]
+			rewards: [
+				{
+					id: "45C540FB68964752"
+					type: "item"
+					item: "alexsmobs:banana"
+					count: 5
+				}
+				{
+					id: "1C83CD5CB0CE25EA"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4798175C6D621DC1"
+					type: "item"
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 13.0d
+			description: ["绯红蚊子吸满血后被击杀的掉落物。"]
+			dependencies: ["3EF3C919FDC60E1B"]
+			id: "3B5F5AF7209A9221"
+			tasks: [{
+				id: "5EF379925A17EEAA"
+				type: "item"
+				item: "alexsmobs:blood_sac"
+			}]
+			rewards: [{
+				id: "4E407F372943B7DE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: 13.0d
+			description: ["绯红蚊子被击杀后随机掉落。"]
+			dependencies: ["3EF3C919FDC60E1B"]
+			id: "3EC4C7FDCDB42C8D"
+			tasks: [{
+				id: "1A81541ABDE0D3CA"
+				type: "item"
+				item: "alexsmobs:mosquito_proboscis"
+			}]
+			rewards: [{
+				id: "74F337BD4367E789"
+				type: "item"
+				item: "alexsmobs:mosquito_proboscis"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: 15.0d
+			description: ["以武器形态模拟绯红蚊子攻击的自定义武器，以血囊为弹药。"]
+			dependencies: [
+				"3B5F5AF7209A9221"
+				"3EC4C7FDCDB42C8D"
+			]
+			id: "2BA62BA8195FC90F"
+			tasks: [{
+				id: "3703E14E87D5EAC9"
+				type: "item"
+				item: {
+					id: "alexsmobs:blood_sprayer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6F0DBDCDADE8797F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "435322EC940FD8AC"
+					type: "item"
+					item: "alexsmobs:blood_sac"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 1.5d
+			description: ["响尾蛇被杀死后的掉落物，通常用于保护其他生物免受毒咬。"]
+			dependencies: ["295FFF98AC0C3FB2"]
+			id: "1670F799696648EA"
+			tasks: [{
+				id: "14B04FCEC03DCB1E"
+				type: "item"
+				item: "alexsmobs:rattlesnake_rattle"
+			}]
+			rewards: [{
+				id: "1D77006C38694FB8"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 10.0d
+			description: ["用紫颂果吸引一只末影缓步兽，给它们装上鞍，就像原版的猪一样。制作紫颂果钓竿后，你就可以诱导末影缓步兽去往任何你想去的方向。"]
+			dependencies: ["3CD714A755372F99"]
+			id: "60286A30B5BF3EBF"
+			tasks: [{
+				id: "539E21D26BDBDE87"
+				type: "item"
+				item: "alexsmobs:chorus_on_a_stick"
+			}]
+			rewards: [
+				{
+					id: "372062164B25838D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5478A87BCFD6F7A9"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 4.5d
+			description: ["锤头鲨攻击时随机掉落物。"]
+			dependencies: ["2C2D57D238A96C47"]
+			id: "12903E07FD2AA25B"
+			tasks: [{
+				id: "0B77AD7BC335F364"
+				type: "item"
+				item: "alexsmobs:shark_tooth"
+			}]
+			rewards: [{
+				id: "19061E1292F8E483"
+				type: "item"
+				item: "alexsmobs:shark_tooth"
+				count: 3
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.5d
+			description: ["这些箭在水下会受到更小的阻力，并且会对海洋生物造成更多伤害。"]
+			dependencies: ["12903E07FD2AA25B"]
+			id: "77213B3F102D54FC"
+			tasks: [{
+				id: "0F6970038AA15D78"
+				type: "item"
+				item: "alexsmobs:shark_tooth_arrow"
+			}]
+			rewards: [{
+				id: "7D5E3E3B7942FD70"
+				type: "item"
+				item: "alexsmobs:shark_tooth_arrow"
+				count: 11
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			description: ["如果你想把龙虾搬来搬去。"]
+			dependencies: ["493146EF96766BF4"]
+			id: "0A695B938C047241"
+			tasks: [{
+				id: "71AABA26300386B5"
+				type: "item"
+				item: "alexsmobs:lobster_bucket"
+			}]
+			rewards: [{
+				id: "044B44E42E8CBBD3"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: ["龙虾死后的掉落物。"]
+			dependencies: ["493146EF96766BF4"]
+			id: "5B599C2BB40A43DD"
+			tasks: [{
+				id: "3AC3964E80C583B9"
+				type: "item"
+				item: "alexsmobs:lobster_tail"
+			}]
+			rewards: [{
+				id: "20497616CCD7A3F4"
+				type: "item"
+				item: "alexsmobs:lobster_tail"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			description: ["加些黄油会很美味。"]
+			dependencies: ["5B599C2BB40A43DD"]
+			id: "3B65899892E55F6F"
+			tasks: [{
+				id: "717BA1871FF674CF"
+				type: "item"
+				item: "alexsmobs:cooked_lobster_tail"
+			}]
+			rewards: [{
+				id: "29C76AC5528B9264"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -18.0d
+			y: 1.5d
+			description: ["科莫多巨蜥偶尔会滴落唾液。"]
+			dependencies: ["6BC74F4BAEA808FF"]
+			id: "08F33774046B54FC"
+			tasks: [{
+				id: "0D23CE0916F75F31"
+				type: "item"
+				item: "alexsmobs:komodo_spit"
+			}]
+			rewards: [{
+				id: "7ADC6ADEC9153DD8"
+				type: "item"
+				item: "alexsmobs:komodo_spit"
+				count: 2
+			}]
+		}
+		{
+			x: -17.29761904761905d
+			y: 2.6071428571428186d
+			description: ["获得几滴唾液并放在瓶子里，以后可能很有用。"]
+			dependencies: ["08F33774046B54FC"]
+			id: "7EBEA1931702D1E5"
+			tasks: [{
+				id: "62EC16B92C5F9D63"
+				type: "item"
+				item: "alexsmobs:komodo_spit_bottle"
+			}]
+			rewards: [{
+				id: "1CB8CAD5C0311D3E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -16.583333333333343d
+			y: 3.678571428571395d
+			description: ["非常典型的毒药。"]
+			dependencies: [
+				"7EBEA1931702D1E5"
+				"154772C9462DDCC4"
+			]
+			id: "598345B0F9427722"
+			tasks: [{
+				id: "0EA839DFED08E778"
+				type: "item"
+				item: "alexsmobs:poison_bottle"
+			}]
+			rewards: [{
+				id: "649407DAF5400409"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -15.5d
+			y: 5.0d
+			description: ["一种非常有效的抗毒药水，以毒液精华和响尾制成。"]
+			dependencies: [
+				"598345B0F9427722"
+				"1670F799696648EA"
+			]
+			id: "310DB627AF3DCE9B"
+			tasks: [{
+				id: "6AB5340F587CFDC4"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:poison_resistance"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B9EC2967752C2D7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			description: ["给卷尾猴喂香蕉时有概率掉落。"]
+			dependencies: ["76291B63F0ED9022"]
+			id: "05B3DE276E40F772"
+			tasks: [{
+				id: "1461BD6CFCC7D731"
+				type: "item"
+				item: "alexsmobs:banana_peel"
+			}]
+			rewards: [{
+				id: "1677938C00103DCA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			description: [
+				"一种非常\"独特\"的汤......"
+				"何不尝一些。"
+			]
+			dependencies: ["05B3DE276E40F772"]
+			id: "5FE4BCE33C614980"
+			tasks: [{
+				id: "7DE107F6DBEF8906"
+				type: "item"
+				item: "alexsmobs:sopa_de_macaco"
+			}]
+			rewards: [{
+				id: "3C82761AB3FB798E"
+				type: "item"
+				item: "minecraft:beetroot_soup"
+			}]
+		}
+		{
+			x: -17.5d
+			y: 5.0d
+			description: ["洞穴蜈蚣被杀死后的掉落物，有概率掉落多个。"]
+			dependencies: ["3231E98238491AF0"]
+			id: "154772C9462DDCC4"
+			tasks: [{
+				id: "180B35B0BB919AD9"
+				type: "item"
+				item: "alexsmobs:centipede_leg"
+			}]
+			rewards: [{
+				id: "1AAB98F4A877062B"
+				type: "item"
+				item: "alexsmobs:centipede_leg"
+				count: 2
+			}]
+		}
+		{
+			x: -16.5d
+			y: 6.5d
+			description: ["给予穿戴者爬墙的能力。"]
+			dependencies: ["154772C9462DDCC4"]
+			id: "673635AB75E98296"
+			tasks: [{
+				id: "364EC70179948791"
+				type: "item"
+				item: {
+					id: "alexsmobs:centipede_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "61D9563F82FA27DA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "00F60DD82068E585"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 13.0d
+			description: ["绯红蚊子的幼体，以蛆和绯红蚊子口器制成，是诡异蟾蜍最爱的食物，你可以用幼体来驯服它们。"]
+			dependencies: ["3EC4C7FDCDB42C8D"]
+			id: "6D5AA599D202F0AF"
+			tasks: [{
+				id: "3DC5597D70910A0A"
+				type: "item"
+				item: "alexsmobs:mosquito_larva"
+			}]
+			rewards: [{
+				id: "3F6128FEE1CFEB02"
+				type: "item"
+				item: "alexsmobs:mosquito_larva"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			description: ["驼鹿每7-10天就会掉落一支鹿角。"]
+			dependencies: ["3705153037F1DDEE"]
+			id: "2DFC032306822F4E"
+			tasks: [{
+				id: "7D8CA585B9505139"
+				type: "item"
+				item: "alexsmobs:moose_antler"
+			}]
+			rewards: [{
+				id: "42B83502B5DC6F7D"
+				type: "item"
+				item: "alexsmobs:moose_antler"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			description: ["安上一些鹿角后，这顶帽子能给予玩家击退抗性。"]
+			dependencies: ["2DFC032306822F4E"]
+			id: "27F0DB0AF1386C6D"
+			tasks: [{
+				id: "2A68C851464EBAC0"
+				type: "item"
+				item: {
+					id: "alexsmobs:moose_headgear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E24662780A92557"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			description: ["驼鹿被杀死后，会掉落一些很大的排骨。"]
+			dependencies: ["3705153037F1DDEE"]
+			id: "61C774465250F5E2"
+			tasks: [{
+				id: "0B83A5C69A722347"
+				type: "item"
+				item: "alexsmobs:moose_ribs"
+			}]
+			rewards: [{
+				id: "472FB949C5746205"
+				type: "item"
+				item: "alexsmobs:moose_ribs"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			description: ["烧烤时间到！"]
+			dependencies: ["61C774465250F5E2"]
+			id: "11AFA0A04E10DF94"
+			tasks: [{
+				id: "32DB582575A5FAC4"
+				type: "item"
+				item: "alexsmobs:cooked_moose_ribs"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			description: ["浣熊被杀死后的掉落物。"]
+			dependencies: ["5AF05B20BB414210"]
+			id: "43A6451E42293BAC"
+			tasks: [{
+				id: "166A0DF287F39D32"
+				type: "item"
+				item: "alexsmobs:raccoon_tail"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			description: ["这顶有趣的帽子会给予穿戴者潜行时的速度提升。"]
+			dependencies: ["43A6451E42293BAC"]
+			id: "5E067D93C8018428"
+			tasks: [{
+				id: "1CFD2F5A909BAEE3"
+				type: "item"
+				item: {
+					id: "alexsmobs:frontier_cap"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B09E7CD8A48EFC5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			description: ["当你想要一只黏黏的小家伙时。"]
+			dependencies: ["2142DDB9A0AF6B94"]
+			id: "759CC2ED6720614D"
+			tasks: [{
+				id: "50F159BA577FC800"
+				type: "item"
+				item: "alexsmobs:blobfish_bucket"
+			}]
+			rewards: [{
+				id: "397F97B292D9E35D"
+				type: "item"
+				item: "losttrinkets:treasure_bag"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			description: ["水滴鱼被杀死后留下的悲伤小身体。"]
+			dependencies: ["2142DDB9A0AF6B94"]
+			id: "235A8DAEDFF467D7"
+			tasks: [{
+				id: "3286E77C29DC9875"
+				type: "item"
+				item: "alexsmobs:blobfish"
+			}]
+			rewards: [{
+				id: "0AFFC4BA380655F0"
+				type: "item"
+				item: "alexsmobs:blobfish"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			description: ["将水滴鱼挤压进瓶子中，鱼油便可制成，在下雨天会有一些有趣的特性。"]
+			dependencies: ["235A8DAEDFF467D7"]
+			id: "005E68B4C5271269"
+			tasks: [{
+				id: "5C7464F62CB0DD68"
+				type: "item"
+				item: "alexsmobs:fish_oil"
+			}]
+			rewards: [{
+				id: "1E95E4F3FA1EEE0C"
+				type: "item"
+				item: "alexsmobs:fish_oil"
+				count: 2
+			}]
+		}
+		{
+			x: -12.5d
+			y: 3.0d
+			description: ["沙槌由响尾制成。它会吸引蟑螂的注意力。"]
+			dependencies: ["1670F799696648EA"]
+			id: "679FB7E7C654385F"
+			tasks: [{
+				id: "19D31D99E32BAF86"
+				type: "item"
+				item: "alexsmobs:maraca"
+			}]
+			rewards: [{
+				id: "32FDBAEAB5DEBC1B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.5d
+			y: 4.5d
+			description: ["蟑螂被杀死后随机掉落。"]
+			dependencies: ["3B5935EFBF9C27D7"]
+			id: "147F7EA3E650C141"
+			tasks: [{
+				id: "4A1E5CD54BAF7A7F"
+				type: "item"
+				item: "alexsmobs:cockroach_wing_fragment"
+			}]
+			rewards: [{
+				id: "632F82CF39CB7BA0"
+				type: "item"
+				item: "alexsmobs:cockroach_wing_fragment"
+				count: 3
+			}]
+		}
+		{
+			x: -9.0d
+			y: 4.5d
+			description: ["蟑螂的再修复翅膀。"]
+			dependencies: ["147F7EA3E650C141"]
+			id: "4DC3338C71A2086D"
+			tasks: [{
+				id: "2FD18E114E0FE331"
+				type: "item"
+				item: "alexsmobs:cockroach_wing"
+			}]
+			rewards: [{
+				id: "59E077B437620EEE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.5d
+			description: ["这种药剂会让人几乎不被敌对的虫子看到。"]
+			dependencies: ["4DC3338C71A2086D"]
+			id: "3B1E5DEBB7BE02F1"
+			tasks: [{
+				id: "1B05EE63E81476D3"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:bug_pheromones"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6C27111D0D893390"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0963A3AC98575CC8"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -9.0d
+			description: ["金合欢树的稀有掉落物。"]
+			id: "568B1FDB06169851"
+			tasks: [{
+				id: "79126CD9D0AD4237"
+				type: "item"
+				item: "alexsmobs:acacia_blossom"
+			}]
+			rewards: [{
+				id: "4CC4667252307EDB"
+				type: "item"
+				item: "alexsmobs:acacia_blossom"
+				count: 2
+			}]
+		}
+		{
+			x: -6.0d
+			y: 7.0d
+			description: ["在灵魂鹫攻击玩家汲取生命并提升灵魂等级后，它就会有概率掉落灵魂之心。"]
+			dependencies: ["292B32B34CD5094A"]
+			id: "3E83CFACFBDFDEB2"
+			tasks: [{
+				id: "63A93237BADBA22A"
+				type: "item"
+				item: "alexsmobs:soul_heart"
+			}]
+			rewards: [
+				{
+					id: "4DF80267D690A21B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "23BE6640C97931B9"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 8.5d
+			description: ["这种药水会给予玩家灵魂鹫损害生命的力量。"]
+			dependencies: ["3E83CFACFBDFDEB2"]
+			id: "6A1A2DA7A8CF7DFC"
+			tasks: [{
+				id: "66B8F8B6B4128277"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:soulsteal"
+					}
+				}
+			}]
+			rewards: [{
+				id: "032D1B64A72FF455"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			description: ["对覆有苔藓的大鳄龟使用剪刀有概率掉落。"]
+			dependencies: ["6964B640BF90A11C"]
+			id: "76AAFE97A27F9401"
+			tasks: [{
+				id: "2354928341859A19"
+				type: "item"
+				item: "alexsmobs:spiked_scute"
+			}]
+			rewards: [{
+				id: "0494940CD1D9299C"
+				type: "item"
+				item: "alexsmobs:spiked_scute"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			description: ["让海龟壳能给予玩家击退抗性并且延长穿戴者15秒水下呼吸时间，也有概率反弹近战攻击。"]
+			dependencies: ["76AAFE97A27F9401"]
+			id: "7C7C37A9744A5749"
+			tasks: [{
+				id: "43B7921B92D4A21C"
+				type: "item"
+				item: {
+					id: "alexsmobs:spiked_turtle_shell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "43EC41F6B0FDA9A9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -10.5d
+			y: 1.5d
+			description: ["沙风怪的核心，被杀死后掉落。"]
+			dependencies: ["586FB5B01BB6C341"]
+			id: "1F21942D74A4B548"
+			tasks: [{
+				id: "2D788644FF1CE5F1"
+				type: "item"
+				item: "alexsmobs:guster_eye"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 3.0d
+			description: ["向他们眼里扔些沙子！"]
+			dependencies: ["1F21942D74A4B548"]
+			id: "3E2F7D08A8E596F1"
+			tasks: [{
+				id: "79667C6F209C2E6A"
+				type: "item"
+				item: {
+					id: "alexsmobs:pocket_sand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "140C65FC53463AD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -11.0d
+			y: 3.0d
+			description: ["被红石激活后，造风器会在一条线上发射沙风怪把物品推走。"]
+			dependencies: ["1F21942D74A4B548"]
+			id: "2401BD24F4787BEE"
+			tasks: [{
+				id: "4A08C8CC60DB08D7"
+				type: "item"
+				item: "alexsmobs:gustmaker"
+			}]
+			rewards: [
+				{
+					id: "730D3520D358C026"
+					type: "item"
+					item: "minecraft:lever"
+				}
+				{
+					id: "79B79FB24325B61C"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 13.0d
+			description: ["诡异蚊鬼的力量来源。"]
+			dependencies: ["47BE77D8F21BBDCC"]
+			id: "323E3518BE41C84D"
+			tasks: [{
+				id: "7466FDC5B490C584"
+				type: "item"
+				item: "alexsmobs:warped_muscle"
+			}]
+			rewards: [{
+				id: "28A197BA81394DDA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 13.0d
+			description: ["诡异蚊鬼诡异力量来源。"]
+			dependencies: ["47BE77D8F21BBDCC"]
+			id: "1DD27A6265642B96"
+			tasks: [{
+				id: "69C3C165B652D650"
+				type: "item"
+				item: "alexsmobs:hemolymph_sac"
+			}]
+			rewards: [{
+				id: "41E40B84EE4639C6"
+				type: "item"
+				item: "alexsmobs:hemolymph_sac"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 15.0d
+			description: ["升级版血液喷射器。"]
+			dependencies: [
+				"323E3518BE41C84D"
+				"1DD27A6265642B96"
+				"2BA62BA8195FC90F"
+			]
+			id: "7E104C87A3BB6CA4"
+			tasks: [{
+				id: "733A3D3E59544AC5"
+				type: "item"
+				item: {
+					id: "alexsmobs:hemolymph_blaster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B6C481D87B6663E"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 11.5d
+			description: ["试着把跨座蝌蚪抓进熔岩桶里。"]
+			dependencies: ["4EDC8D006049F8E4"]
+			id: "13EDF3FD77403F25"
+			tasks: [{
+				id: "4AE8288976987969"
+				type: "item"
+				item: "alexsmobs:stradpole_bucket"
+			}]
+			rewards: [{
+				id: "48B142CD79EFCAEE"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 13.0d
+			description: ["跨座兽的稀有掉落物，有着有趣的用途。"]
+			dependencies: ["4EDC8D006049F8E4"]
+			id: "1D01C2288B41EBDC"
+			tasks: [{
+				id: "5BABD09020966A53"
+				type: "item"
+				item: "alexsmobs:straddlite"
+			}]
+			rewards: [{
+				id: "16E611377AB6A99D"
+				type: "item"
+				item: "alexsmobs:straddlite"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 13.0d
+			description: ["可染色的熔岩冲浪板。小心不要撞到东西，你会掉下来的。"]
+			dependencies: ["1D01C2288B41EBDC"]
+			id: "76D75DF855373032"
+			tasks: [{
+				id: "6F0FC34DF30FD700"
+				type: "item"
+				item: {
+					id: "alexsmobs:straddleboard"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "578539AEF0D91CB4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			description: ["鸸鹋偶尔会产出一颗蛋。"]
+			dependencies: ["051CA3BEF47E6BCF"]
+			id: "38854ED19F0C1963"
+			tasks: [{
+				id: "3E740055ADB7D366"
+				type: "item"
+				item: "alexsmobs:emu_egg"
+			}]
+			rewards: [{
+				id: "6E9B1E0DDF597ECD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: ["原壳装原蛋。"]
+			dependencies: ["38854ED19F0C1963"]
+			id: "5155710838D1A547"
+			tasks: [{
+				id: "3CE12C0C528D8BB6"
+				type: "item"
+				item: "alexsmobs:boiled_emu_egg"
+			}]
+			rewards: [{
+				id: "14A50E2C25011DB8"
+				type: "item"
+				item: "minecraft:bread"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			description: ["鸸鹋被杀死后的掉落物。"]
+			dependencies: ["051CA3BEF47E6BCF"]
+			id: "369959C82AF24ECD"
+			tasks: [{
+				id: "2EDDC0933AB806CE"
+				type: "item"
+				item: "alexsmobs:emu_feather"
+			}]
+			rewards: [{
+				id: "54A122BBF62F12B5"
+				type: "item"
+				item: "alexsmobs:emu_feather"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			description: ["给予穿戴者鸸鹋冲刺的能力。"]
+			dependencies: [
+				"369959C82AF24ECD"
+				"4FBF9E3701C078F6"
+			]
+			id: "25B989B6383563D8"
+			tasks: [{
+				id: "417EE5A316C452B3"
+				type: "item"
+				item: {
+					id: "alexsmobs:emu_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0E1C3B1A350B4391"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "688672923C3DD8A5"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 8.0d
+			description: ["悬熊的掉落物，用于制作打火石或一种特殊的药剂。"]
+			dependencies: ["0544039A394BA4C5"]
+			id: "3DAF08614ABA2EC5"
+			tasks: [{
+				id: "20299B6FFF0AC499"
+				type: "item"
+				item: "alexsmobs:dropbear_claw"
+			}]
+			rewards: [{
+				id: "08C9AA67E57F2FBB"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 7.5d
+			description: ["这种药剂允许玩家像悬熊一样在天花板上行走。"]
+			dependencies: ["3DAF08614ABA2EC5"]
+			id: "4FE66E25E32AEBAE"
+			tasks: [{
+				id: "491D219FBC87114E"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:clinging"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6499C6EFC0F16AE2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			description: ["袋鼠被杀死后的掉落物，真可怜。"]
+			dependencies: ["6941D667244F04D9"]
+			id: "62E977DBD3A3F3FE"
+			tasks: [{
+				id: "4F70AF34DD1E0BC5"
+				type: "item"
+				item: "alexsmobs:kangaroo_meat"
+			}]
+			rewards: [{
+				id: "2CD6531416286BE0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.0d
+			description: ["把肉煮熟。"]
+			dependencies: ["62E977DBD3A3F3FE"]
+			id: "5156BA2D508BE4D0"
+			tasks: [{
+				id: "5D30E69B7CB6A0D1"
+				type: "item"
+				item: "alexsmobs:cooked_kangaroo_meat"
+			}]
+			rewards: [{
+				id: "66684701385986D7"
+				type: "item"
+				item: "minecraft:bread"
+				count: 2
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			description: ["一个精美的手作汉堡。"]
+			dependencies: ["5156BA2D508BE4D0"]
+			id: "16FB2CA4AEF796DC"
+			tasks: [{
+				id: "5A45D61C27A565ED"
+				type: "item"
+				item: "alexsmobs:kangaroo_burger"
+			}]
+			rewards: [{
+				id: "27069516902A1AE4"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			description: ["袋鼠皮能够制成皮革或一些精美的裤子。"]
+			dependencies: ["6941D667244F04D9"]
+			id: "4FBF9E3701C078F6"
+			tasks: [{
+				id: "5C057F378B832103"
+				type: "item"
+				item: "alexsmobs:kangaroo_hide"
+			}]
+			rewards: [{
+				id: "2512B0CB217F59B2"
+				type: "item"
+				item: "alexsmobs:kangaroo_hide"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.0d
+			description: ["抹香鲸攻击时掉落。"]
+			id: "68D06C789ABF3D14"
+			tasks: [{
+				id: "6A36D4B67C346235"
+				type: "item"
+				item: "alexsmobs:cachalot_whale_tooth"
+			}]
+			rewards: [{
+				id: "3F22DD01B390C13D"
+				type: "item"
+				item: "alexsmobs:cachalot_whale_tooth"
+				count: 3
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			description: ["鲸鱼搁浅时，救助鲸鱼以获得这个奖励。"]
+			id: "151159150037976D"
+			tasks: [{
+				id: "1BDD5F030839EFB0"
+				type: "item"
+				item: "alexsmobs:ambergris"
+			}]
+			rewards: [{
+				id: "4313E32BE7BB072B"
+				type: "item"
+				item: "alexsmobs:ambergris"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 3.5d
+			description: ["回声定位器能定位附近的洞穴。"]
+			dependencies: [
+				"151159150037976D"
+				"68D06C789ABF3D14"
+			]
+			id: "456C97EA74811997"
+			tasks: [{
+				id: "1ACE9699E2BFB049"
+				type: "item"
+				item: {
+					id: "alexsmobs:echolocator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "18117C87072BC748"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 13.5d
+			y: 3.5d
+			description: ["末影定位器能定位末地传送门。"]
+			dependencies: ["456C97EA74811997"]
+			id: "02E95675EB8EF204"
+			tasks: [{
+				id: "1464AB23C58B3215"
+				type: "item"
+				item: {
+					id: "alexsmobs:endolocator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "39FD9B60FFE9608D"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -12.5d
+			description: ["破坏蚁室或击杀蚁后的稀有掉落物。用于制作新的蚂蚁王国，只需要将其使用在泥土或草方块上。"]
+			dependencies: ["7E6468F38A587264"]
+			id: "16CAFA17D62FD870"
+			tasks: [{
+				id: "0BDA5802571BADA9"
+				type: "item"
+				item: "alexsmobs:leafcutter_ant_pupa"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -11.5d
+			description: ["这种菌类用于喂养蚂蚁并治疗它们，或者提升蚁后的繁殖速度。右键切叶蚁丘下方的切叶蚁室获得，在周围放置菌光体，就不会激怒切叶蚁。"]
+			dependencies: ["7E6468F38A587264"]
+			id: "6C244C409D094052"
+			tasks: [{
+				id: "3F3CAE2209A529AA"
+				type: "item"
+				item: "alexsmobs:gongylidia"
+			}]
+			rewards: [{
+				id: "6D6723F46A073E05"
+				type: "item"
+				item: "alexsmobs:gongylidia"
+				count: 5
+			}]
+		}
+		{
+			x: 4.0d
+			y: 12.0d
+			description: ["末影噬菌体的掉落物，能够存储一组物品，或将物品运输到上方的容器内。"]
+			dependencies: ["40CFB3D7A3ECB1B9"]
+			id: "57D3C1E86A23E5AD"
+			tasks: [{
+				id: "1D7D964AFD8CCC28"
+				type: "item"
+				item: "alexsmobs:capsid"
+			}]
+			rewards: [{
+				id: "39173D66A55F793A"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 10.5d
+			description: ["一种特殊的烟花火箭，拥有特别的DNA图案，在末地很容易制作。"]
+			dependencies: ["57D3C1E86A23E5AD"]
+			id: "1A85A5ED5D9EDD86"
+			tasks: [{
+				id: "660A9211FC204506"
+				type: "item"
+				item: "alexsmobs:enderiophage_rocket"
+			}]
+			rewards: [{
+				id: "14BEC4B0CF295317"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -7.5d
+			y: -11.5d
+			description: ["猎鹰手套允许玩家捡起被驯服的白头海雕。指向怪物时左键，就能让白头海雕攻击怪物，如果没有指向怪物左键，就会让海雕跳下来。"]
+			dependencies: ["0433861EE023060D"]
+			id: "7FB236F280E77256"
+			tasks: [{
+				id: "2C5C6F871671B792"
+				type: "item"
+				item: "alexsmobs:falconry_glove"
+			}]
+			rewards: [{
+				id: "34905C384E6907AD"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -12.5d
+			description: ["猎鹰兜帽能更精准的操控白头海雕，白头海雕飞行时会给予玩家第三人称控制视角，白头海雕最多能飞离主人150格。潜行会停止飞行模式。"]
+			dependencies: ["7FB236F280E77256"]
+			id: "2BA83FDF7240DE8B"
+			tasks: [{
+				id: "3C040D4468053D5C"
+				type: "item"
+				item: "alexsmobs:falconry_hood"
+			}]
+			rewards: [{
+				id: "5E48C1E1EAD16A14"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -16.5d
+			y: 1.5d
+			description: ["沙漠蛛蜂被杀死后的掉落物。"]
+			dependencies: ["737BD5F672EB23AF"]
+			id: "5F33DAD5DEE9892A"
+			tasks: [{
+				id: "470FA84FF6B6CF89"
+				type: "item"
+				item: "alexsmobs:tarantula_hawk_wing_fragment"
+			}]
+			rewards: [{
+				id: "2FCFAB7AF6960D59"
+				type: "item"
+				item: "alexsmobs:tarantula_hawk_wing_fragment"
+				count: 4
+			}]
+		}
+		{
+			x: -15.5d
+			y: 2.5d
+			description: ["沙漠蛛蜂的再修复翅膀。"]
+			dependencies: ["5F33DAD5DEE9892A"]
+			id: "4480FBB32C9E3248"
+			tasks: [{
+				id: "4818558C819F7EE6"
+				type: "item"
+				item: "alexsmobs:tarantula_hawk_wing"
+			}]
+			rewards: [
+				{
+					id: "2A11577510479A13"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "643FEBDC40CDE574"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: 4.0d
+			description: ["用沙漠蛛蜂翅膀增强的鞘翅，会给予玩家额外的保护，还会增加耐久并能附魔。"]
+			dependencies: ["4480FBB32C9E3248"]
+			id: "6F5AC67DDB20ADB4"
+			tasks: [{
+				id: "446C9044228A45EE"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C08A81F665BBC03"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -9.0d
+			description: [
+				"遭遇一只大灰熊。"
+				""
+				"虽然这些生活在森林里的熊毛茸茸的，但最好离大灰熊远点，因为它们附近可能有幼年灰熊，并会不惜一切代价保护它。当然，它们是中立的生物。"
+			]
+			id: "4E20E64264B2AA55"
+			tasks: [{
+				id: "2CDF8914DBF19EC1"
+				type: "advancement"
+				title: "遭遇大灰熊"
+				advancement: "alexsmobs:alexsmobs/grizzly_bear"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "392508A9633EF701"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "06ECDBF446334306"
+					type: "item"
+					item: "minecraft:honeycomb"
+				}
+				{
+					id: "43D6B59710139384"
+					type: "item"
+					item: "minecraft:salmon"
+				}
+				{
+					id: "00C26B8E5F537ED7"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -10.0d
+			description: ["大灰熊能够被驯服，你需要等待它吃些蜂蜜，或喂给它一个蜜脾，然后再喂一些鲑鱼。它们是凶残的保卫者，同时也是一个好用的坐骑。"]
+			dependencies: ["4E20E64264B2AA55"]
+			id: "240F618AC1E292F7"
+			tasks: [{
+				id: "57620075DD5F169C"
+				type: "advancement"
+				title: "泰迪熊"
+				advancement: "alexsmobs:alexsmobs/tame_grizzly_bear"
+				criterion: ""
+			}]
+		}
+		{
+			title: "迅捷药水 III"
+			x: -7.5d
+			y: -6.5d
+			description: ["这种药水能让你达到前所未有的速度。"]
+			dependencies: ["1561DE019D318A18"]
+			id: "792DBA9FA8A22FD5"
+			tasks: [{
+				id: "5842E473899E6454"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:speed_iii"
+					}
+				}
+			}]
+			rewards: [{
+				id: "57D012BE4C75F766"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			description: ["鳄鱼生活在大型沼泽和湖泊，对附近的生物充满危险性。但你仍然可以用腐肉喂养它们。当小鳄鱼从蛋中孵化出来，附近的一名玩家就会被当做亲人，并且它们会听从那名玩家的命令。"]
+			id: "4B89A8800535AB16"
+			tasks: [{
+				id: "1CBE91AD76108762"
+				type: "advancement"
+				title: "遭遇鳄鱼"
+				advancement: "alexsmobs:alexsmobs/crocodile"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "15818836E32A1165"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "26F537AD8BF5B742"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			description: ["大鳄龟生活在大型沼泽。它们会撕咬过于接近它的任何东西。它们很少移动，并且龟壳上会长苔藓。"]
+			id: "6964B640BF90A11C"
+			tasks: [{
+				id: "76B42026258E100A"
+				type: "advancement"
+				title: "遭遇大鳄龟"
+				advancement: "alexsmobs:alexsmobs/alligator_snapping_turtle"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "743900948393C170"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7780B6F0F682DEF4"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			description: [
+				"用花朵喂养两只蜂鸟。"
+				""
+				"蜂鸟能够在丛林、繁华森林和向日葵平原被找到，它们飞行速度很快，比蜜蜂更快地为作物和花朵授粉。"
+			]
+			id: "68585BA9EB6949FD"
+			tasks: [{
+				id: "3EBF1EF204B6F41B"
+				type: "advancement"
+				title: "蜂鸟饲养员"
+				advancement: "alexsmobs:alexsmobs/breed_hummingbird"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5D0AD82283FA76F2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "76FB0348D2D0523C"
+					type: "item"
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			description: [
+				"和一池虎鲸一起游泳，会获得更快的攻击速度。"
+				""
+				"这种大型海洋动物能够在冷水海洋被找到，它们会跳出水面。它们不是最友好的生物，所以你得与它们保持安全距离，它们也会攻击守卫者和溺尸。"
+			]
+			id: "58BC291643685897"
+			tasks: [{
+				id: "1E88FF99723FF9F5"
+				type: "advancement"
+				title: "虎鲸的力量"
+				advancement: "alexsmobs:alexsmobs/orcas_might"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6FC9300FEF389D61"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "68C37396C31151F0"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -14.0d
+			description: [
+				"被太阳鸟祝福。"
+				""
+				"太阳鸟是一种神话生物，会在高山上飞翔。它会让周围的不死生物燃烧，但平时不会攻击。"
+			]
+			id: "46E970252CE65795"
+			tasks: [{
+				id: "21284B920BF52531"
+				type: "advancement"
+				title: "来自天空的祝福"
+				advancement: "alexsmobs:alexsmobs/sunbird_blessing"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0CA26A3CE7DF8136"
+				type: "item"
+				item: "majruszs_difficulty:bandage"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			description: [
+				"用香蕉驯服大猩猩。"
+				""
+				"大猩猩是生活在丛林的大型猿类，平时非常和平，但会保护自己。银背猩猩会领导一群猩猩，你能看到小猩猩趴在大猩猩背上。"
+			]
+			dependencies: ["2CF3F2F094B0D3B1"]
+			id: "49474262BB1DD1F1"
+			tasks: [{
+				id: "5B394498182F2EA9"
+				type: "advancement"
+				title: "巨猩乔扬"
+				advancement: "alexsmobs:alexsmobs/tame_gorilla"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5C48D2813A425EAF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			description: [
+				"用香蕉驯服卷尾猴。"
+				""
+				"这些生活在丛林的小型猿类很喜欢香蕉。被驯服后，它能坐在主人的肩膀上，跟随、游荡、待命甚至是远近兼备地进行攻击。"
+				"给它们喂鸡蛋可以治疗它们，但蛆才能让它们繁殖。"
+			]
+			dependencies: ["2CF3F2F094B0D3B1"]
+			id: "76291B63F0ED9022"
+			tasks: [{
+				id: "515F2AE9A1C47768"
+				type: "advancement"
+				title: "Mini Mo"
+				advancement: "alexsmobs:alexsmobs/tame_capuchin"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "40C6CE211C59FD35"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -13.0d
+			y: 0.5d
+			description: ["响尾蛇是一种生活在沙漠或恶地的毒蛇。它们通常用尾巴发出的沙沙声来定位。当摇响尾巴并且有人靠近时，它们会毫不留情地对其毒咬。"]
+			id: "295FFF98AC0C3FB2"
+			tasks: [{
+				id: "5ED6AA67B994CB19"
+				type: "advancement"
+				title: "遭遇响尾蛇"
+				advancement: "alexsmobs:alexsmobs/rattlesnake"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "613720ADBE74AA81"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -13.5d
+			y: 4.5d
+			description: ["给蟑螂一个沙锤后会发生什么？谁知道呢。"]
+			dependencies: [
+				"679FB7E7C654385F"
+				"3B5935EFBF9C27D7"
+			]
+			id: "0E7A15BD940ECF8E"
+			tasks: [{
+				id: "1139B235EB572777"
+				type: "advancement"
+				title: "蟑螂舞"
+				advancement: "alexsmobs:alexsmobs/la_cucaracha"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2AAFE2A5B5C9E176"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -6.0d
+			y: -9.0d
+			description: [
+				"驯服一只无牙的大象。"
+				""
+				"大象生活在萨瓦纳草原。它们被分为三个种类：幼年、有牙和无牙。所有的大象都善于保护自己的家人。长成的有牙大象不能被金合欢花驯服，有时你能在旅商那看到大象。"
+			]
+			dependencies: ["568B1FDB06169851"]
+			id: "2FF82B88371F5F07"
+			tasks: [{
+				id: "152BF44EB964BD44"
+				type: "advancement"
+				title: "非洲丛林历险记"
+				advancement: "alexsmobs:alexsmobs/tame_elephant"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7CD84B3A95C81ACC"
+				type: "item"
+				item: "alexsmobs:acacia_blossom"
+				count: 4
+			}]
+		}
+		{
+			x: -8.5d
+			y: -10.0d
+			description: [
+				"在有牙大象幼年时驯服它。"
+				""
+				"有牙的大象只能在幼年时被驯服，它们会成长成有力的保卫者。"
+			]
+			dependencies: ["2FF82B88371F5F07"]
+			id: "24285EBFC92AD6C5"
+			tasks: [{
+				id: "0DD7CF75490E294D"
+				type: "advancement"
+				title: "最好的战士"
+				advancement: "alexsmobs:alexsmobs/tame_elephant_tusked"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "10AB456B8E4D68C3"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -8.0d
+			description: [
+				"在被驯服的大象身上放一个有颜色的地毯。"
+				""
+				"你可以用不同颜色的地毯装饰大象，同样也可以把箱子放在它们身上来携带更多东西。"
+			]
+			dependencies: ["2FF82B88371F5F07"]
+			id: "4718CFDE2B4A98EB"
+			tasks: [{
+				id: "44DF9DD4AE95E8DD"
+				type: "advancement"
+				title: "大象的风格"
+				advancement: "alexsmobs:alexsmobs/elephant_swag"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7957B6564EDC7FAF"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			description: [
+				"用热带鱼驯服螳螂虾。"
+				""
+				"巨型自然生物，生活在暗礁或暖水海洋等待着给敌人一记重拳。螳螂虾能够被任何鱼类治疗，并且使用龙虾尾可以繁殖。一只被驯服的螳螂虾能够被潜行右键给予一个方块，在破坏模式时，就会寻找这种方块并破坏它。"
+			]
+			id: "1404B0021D22163E"
+			tasks: [{
+				id: "7DCC80D0F958A866"
+				type: "advancement"
+				title: "子弹，但是手"
+				advancement: "alexsmobs:alexsmobs/tame_mantis_shrimp"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1D0707B97CF39192"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			description: ["给被驯服的螳螂虾一桶水"]
+			dependencies: ["1404B0021D22163E"]
+			id: "7E59CB5BD918ED99"
+			tasks: [{
+				id: "1B8A368CA6453177"
+				type: "advancement"
+				title: "我好渴"
+				advancement: "alexsmobs:alexsmobs/mantis_shrimp_bucket"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4E56FF11EE680F8E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.5d
+			description: [
+				"遭遇沙风怪"
+				""
+				"沙风怪是一种危险的沙漠魂体怪物，在风暴中诞生。它们会攻击所有东西并把它们吹到高空中或向它们丢沙子。"
+			]
+			id: "586FB5B01BB6C341"
+			tasks: [{
+				id: "6F62F95DCC74816E"
+				type: "advancement"
+				title: "遭遇沙风怪"
+				advancement: "alexsmobs:alexsmobs/guster"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5B537F5BB867D04F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.0d
+			y: -10.0d
+			description: [
+				"用鱼油驯服白头海雕。"
+				""
+				"白头海雕是一种生活在高山密林中的大型鸟类，它们会飞到河流中捕鱼，或猎捕附近的兔子。它们能被鱼油吸引并驯服。它们会听从主人的命令。可以被鱼治疗，用腐肉繁殖。"
+			]
+			id: "0433861EE023060D"
+			tasks: [{
+				id: "60979777BE765F46"
+				type: "advancement"
+				title: "不是真的秃头"
+				advancement: "alexsmobs:alexsmobs/tame_bald_eagle"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0FC3CCEA54C05081"
+				type: "item"
+				item: "majruszs_difficulty:bandage"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -12.5d
+			description: ["用戴着兜帽的白头海雕击杀100格以外的生物。"]
+			dependencies: ["2BA83FDF7240DE8B"]
+			id: "2FABD2A54A4B0A4E"
+			tasks: [{
+				id: "0DC163D693E32FA0"
+				type: "advancement"
+				title: "远距离击杀者"
+				advancement: "alexsmobs:alexsmobs/bald_eagle_challenge"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "46C21E8DA0507D8B"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -15.5d
+			y: 0.5d
+			description: [
+				"遭遇沙漠蛛蜂"
+				""
+				"沙漠蛛蜂是飞行在沙漠中的巨型自然峰虫。它们喜欢攻击蜘蛛，将其麻痹并埋在地底。由于它们飞行轨迹不稳定，与它们战斗非常困难。它们可以被花治疗。"
+			]
+			id: "3CA1304CC6ED84A5"
+			tasks: [{
+				id: "7D15C1F72B8C19A2"
+				type: "advancement"
+				title: "遭遇沙漠蛛蜂"
+				advancement: "alexsmobs:alexsmobs/tarantula_hawk"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "732299EB567FA6CA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5A984892BEBA6844"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: 1.5d
+			description: [
+				"用蜘蛛眼驯服沙漠蛛蜂。它们是很好的保护者，能够应付大多数怪物。"
+				"两只被驯服的沙漠蛛蜂可以用发酵蜘蛛眼进行繁殖，接着它们会找到一只蜘蛛并将它麻痹埋在地底。幼年沙漠蛛蜂通常会在蜘蛛被埋的地方出生。"
+			]
+			dependencies: ["3CA1304CC6ED84A5"]
+			id: "737BD5F672EB23AF"
+			tasks: [{
+				id: "470721B071F9795A"
+				type: "advancement"
+				title: "抚摸飞行恶魔"
+				advancement: "alexsmobs:alexsmobs/tame_tarantula_hawk"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0FE3CD398E6B8B3C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			description: [
+				"给老虎喂肉以获得它的祝福。"
+				""
+				"老虎是生活在茂密竹林中的巨型猫类。它们对人类十分不耐烦，如果靠得太近，就会攻击人类。它们是优秀的猎人，捕猎时几乎看不见踪影。给它们喂肉，它们就会给予你祝福，这能让你靠近它们，并且获得它们的帮助。它们可以用金合欢花繁殖，有时会生出白虎。"
+			]
+			id: "6B7F9A97D3149745"
+			tasks: [{
+				id: "47E2205644777034"
+				type: "advancement"
+				title: "托尼的祝福"
+				advancement: "alexsmobs:alexsmobs/tigers_blessing"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "73969BE85978D41D"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			description: [
+				"拯救一只搁浅的抹香鲸。"
+				""
+				"抹香鲸能在几乎所有海域中找到。它们最喜欢捕猎鱿鱼。在雷暴天气中，有时会被冲到海滩上。"
+			]
+			id: "4B530B73DFFA452D"
+			tasks: [{
+				id: "41AB33590C0FB4EA"
+				type: "advancement"
+				title: "海上救援队"
+				advancement: "alexsmobs:alexsmobs/save_cachalot_whale"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1C8F925F7EF99FFF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3EF0DFA67B6D3037"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3C0824B88C9A81E1"
+					type: "item"
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -10.0d
+			description: [
+				"在蚁丘上跳会发生什么？"
+				""
+				"切叶蚁是一种丛林中以树叶为食的小型蚂蚁。一个聚落由20只蚂蚁构成。通常你只能看到工蚁，但如果你在蚁丘上跳跃，蚁后便会出现。聚落需要蚁后才能再次繁衍。"
+			]
+			id: "7E6468F38A587264"
+			tasks: [{
+				id: "300156AB96F3BDE6"
+				type: "advancement"
+				title: "有蚂蚁在我裤子里"
+				advancement: "alexsmobs:alexsmobs/stomp_leafcutter_anthill"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5E47A36797E501F1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "51BD105B88F567F8"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			description: [
+				"遭遇袋鼠"
+				""
+				"萨瓦纳平原和恶地中的大型跳跳动物。它们十分擅长保护自己。它们会被胡萝卜驯服，驯服后除了跟随主人，还可以潜行右键打开它的随身包包。在它的存储袋中放一把近战武器、头盔和胸甲，它就会使用这些东西。它能被除了肉的食物治疗，用枯萎的灌木或草繁殖。"
+			]
+			id: "6941D667244F04D9"
+			tasks: [{
+				id: "681C7849CB7DF7F8"
+				type: "advancement"
+				title: "袋鼠杰克"
+				advancement: "alexsmobs:alexsmobs/kangaroo"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5A0479B4BC8A8A61"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			description: [
+				"遭遇鸸鹋"
+				""
+				"大型走地鸟类，生活在萨瓦纳平原和恶地。它们在受到攻击时会恐惧，但也可以回头攻击。它们喜欢攻击骷髅。能用小麦繁殖，但不能被驯服。它们会以不同颜色出现。"
+			]
+			id: "051CA3BEF47E6BCF"
+			tasks: [{
+				id: "2FC20090FF5FDCC1"
+				type: "advancement"
+				title: "鸸鹋一日游"
+				advancement: "alexsmobs:alexsmobs/emu"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1C791AFC6001ADDD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "797E02A4BBD8C273"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 12.0d
+			description: [
+				"遭遇末影噬菌体"
+				""
+				"末影噬菌体是生活在末地中型岛屿的巨型病毒生物。它是末影缓步兽的天敌，但有时也会攻击末影人。它们会在宿主身上投放病毒，宿主被病毒杀死后便会从身体中钻出一只末影噬菌体。"
+			]
+			id: "40CFB3D7A3ECB1B9"
+			tasks: [{
+				id: "04F776AF5D636E3E"
+				type: "advancement"
+				title: "末地病毒"
+				advancement: "alexsmobs:alexsmobs/enderiophage"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "16D1ECC238BC0E81"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 12.0d
+			description: ["要治愈末影流感，你需要吃紫颂果或喝牛奶。"]
+			dependencies: ["40CFB3D7A3ECB1B9"]
+			id: "44DD26244ADEC0F8"
+			tasks: [{
+				id: "6BCC47F491E9A812"
+				type: "advancement"
+				title: "希望它不具传染性"
+				advancement: "alexsmobs:alexsmobs/ender_flu"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1BF2101C96709AB5"
+				type: "item"
+				item: {
+					id: "largemeals:chorus_fruit_popsicle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 8.5d
+			description: ["居住于下界的大型不死鸟。它们能够偷取生命，并最多五次强化自身。"]
+			id: "292B32B34CD5094A"
+			tasks: [{
+				id: "021CDEE7CA77D77C"
+				type: "advancement"
+				title: "遭遇灵魂鹫"
+				advancement: "alexsmobs:alexsmobs/soul_vulture"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "19BC2A4D6A557ADD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "79DB30FB8307E418"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 7.0d
+			description: [
+				"在末地引诱一只灵翼然后用栓绳搭个便车。"
+				""
+				"灵翼与幻翼类似，但是被动生物。它们不会被物理攻击伤害。它们最喜欢的物品是灵魂之心，喜欢到满眼都是它。"
+			]
+			dependencies: ["3E83CFACFBDFDEB2"]
+			id: "425A42A957D7D70B"
+			tasks: [{
+				id: "2B197BD81934156E"
+				type: "advancement"
+				title: "搭便车"
+				advancement: "alexsmobs:alexsmobs/spectre"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "70D68A037AA12A07"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -14.0d
+			y: 11.5d
+			description: [
+				"遭遇跨座兽"
+				""
+				"跨座兽是炽足兽的大型岩石版本，生活在 玄武岩三角洲。它们具有侵略意识，并会发射跨座蝌蚪攻击它们看到的探险者。"
+			]
+			id: "4EDC8D006049F8E4"
+			tasks: [{
+				id: "00699EA6765B7B6C"
+				type: "advancement"
+				title: "遭遇跨座兽"
+				advancement: "alexsmobs:alexsmobs/straddler"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "32E66281E6847474"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7857EAFB13405EF1"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0EDEAB92D077389F"
+					type: "item"
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 11.5d
+			description: ["给跨座蝌蚪喂一只绯红孑孓，它就会长大。"]
+			dependencies: [
+				"13EDF3FD77403F25"
+				"6D5AA599D202F0AF"
+			]
+			id: "649DAB5F8334BF09"
+			tasks: [{
+				id: "4A084078BEDF8074"
+				type: "advancement"
+				title: "跨座蝌蚪的盛宴"
+				advancement: "alexsmobs:alexsmobs/stradpole_feed"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "19326A9DC755907D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.0d
+			y: 10.5d
+			description: [
+				"绯红蚊子生活在绯红森林，它会吸取几乎所有生物的血。它们还会把血发射回它们的目标上。"
+				""
+				"精英绯红蚊子也很擅长传播瘟疫..."
+				]
+			id: "3EF3C919FDC60E1B"
+			tasks: [{
+				id: "5E6012AB1B7B64E9"
+				type: "advancement"
+				title: "遭遇绯红蚊子"
+				advancement: "alexsmobs:alexsmobs/crimson_mosquito"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0616805ECC476653"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2BCDAC5185C93B4C"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 11.5d
+			description: [
+				"诡异蟾蜍会在诡异森林中稀有出现。它最爱的食物是绯红蚊子，所以非常值得找一只诡异蟾蜍做朋友。"
+				"它能被蛆治疗，用绯红孑孓繁殖。"
+			]
+			dependencies: ["6D5AA599D202F0AF"]
+			id: "434FB123BC8DEEDE"
+			tasks: [{
+				id: "1131503C338F9EEB"
+				type: "advancement"
+				title: "驱蚊器"
+				advancement: "alexsmobs:alexsmobs/tame_warped_toad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "238F36B03F86D58D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 13.0d
+			description: ["如果将一只被诡异菌覆盖的蘑菇君喂给绯红蚊子会发生什么？"]
+			dependencies: [
+				"3EF3C919FDC60E1B"
+				"365AD0B3FADC70B1"
+			]
+			id: "6AD1386215D8E52F"
+			tasks: [{
+				id: "6DEB65E3D52A483A"
+				type: "advancement"
+				title: "疯狂科学家"
+				advancement: "alexsmobs:alexsmobs/crimson_mosquito_sick"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2BDE0160261BA560"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 11.0d
+			description: [
+				"击杀诡异蚊鬼"
+				""
+				"诡异蚊鬼是绯红蚊子的危险进化体。它会攻击几乎所有东西并吸取它们的血来回复自身。"
+			]
+			dependencies: ["6AD1386215D8E52F"]
+			id: "47BE77D8F21BBDCC"
+			tasks: [{
+				id: "23757EA29413C93A"
+				type: "advancement"
+				title: "Bye Bye Mega Chad"
+				advancement: "alexsmobs:alexsmobs/warped_mosco_kill"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6BDC7FA1CF2C9F7C"
+				type: "item"
+				item: "losttrinkets:treasure_bag"
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:seal"
+				}
+			}
+			x: 3.5d
+			y: 2.0d
+			description: ["海豹非常可爱，不受惊动时，会在沙滩或冰山上找到。发现它们时通常都在睡觉，但它们也是个游泳健将。给海豹三条鱼就能与他\"交易\"，它们会潜到水下，然后带回一个海洋相关的物品（有些很有价值）。用龙虾尾繁殖。"]
+			id: "5A0A76BD018B4C93"
+			tasks: [{
+				id: "2CC93480B5927DA9"
+				type: "observation"
+				title: "海豹"
+				icon: {
+					id: "alexsmobs:spawn_egg_seal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:seal"
+			}]
+			rewards: [{
+				id: "621DD7E6E8D3606C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:shoebill"
+				}
+			}
+			x: 1.5d
+			y: 0.5d
+			description: ["鲸头鹳是生活在沼泽的一种奇特鸟类，受到攻击就会逃跑。它们是孤独的捕鱼人，而且不会带走所有捕上来的东西。可以通过给它们喂鳄鱼蛋来增加捕获几率，喂水滴鱼增加捕获的运气。它们无法用食物繁殖。"]
+			id: "249C1132B4C26334"
+			tasks: [{
+				id: "1C1987E5C7055D6B"
+				type: "observation"
+				title: "鲸头鹳"
+				icon: {
+					id: "alexsmobs:spawn_egg_shoebill"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:shoebill"
+			}]
+			rewards: [{
+				id: "78754F8B4C96B3FE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:snow_leopard"
+				}
+			}
+			x: -2.0d
+			y: -3.5d
+			description: ["雪豹是一种独居在雪山的大型猫类。它们对玩家没有进攻性，但喜欢捕猎，也会保护自己。当它们捕猎时，经常会产生额外的掉落物（就像有很高幸运值）。它们不会被驯服，但可以用驼鹿排繁殖。"]
+			id: "782985747FDE09EA"
+			tasks: [{
+				id: "3674C17F4A219029"
+				type: "observation"
+				title: "芝士雪豹"
+				icon: {
+					id: "alexsmobs:spawn_egg_snow_leopard"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:snow_leopard"
+			}]
+			rewards: [{
+				id: "4B5390A324FFA24A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:crow"
+				}
+			}
+			x: -4.0d
+			y: -2.5d
+			description: [
+				"乌鸦是生活在森林和平原的烦人鸟类，它们会环绕农田，阻止作物生长。但只需要一个雕刻南瓜当做稻草人就能把它们吓跑。它们会捡起任何食物或种子并吃掉。"
+				"它们能被南瓜子驯服。它们除了像普通被驯服的动物一样（待命，跟随，游荡），也能收集物品。设置为收集模式后，乌鸦就会寻找有物品展示框的箱子，收集展示框内的物品然后放入箱子。"
+			]
+			id: "0AE3D19B46EFA9D1"
+			tasks: [{
+				id: "617A316883CEFD16"
+				type: "observation"
+				title: "乌鸦"
+				icon: {
+					id: "alexsmobs:spawn_egg_crow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:crow"
+			}]
+			rewards: [{
+				id: "1282C934E5B760F1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:mungus"
+				}
+			}
+			x: -2.0d
+			y: 11.5d
+			description: ["蘑菇君生活在不同的蘑菇群系中。它们是被动生物。它们身上有着能长出蘑菇的菌丝外套，并会根据群系长出更多蘑菇。它们有概率会创造出巨型蘑菇。如果当它身上长有5个蘑菇时被杀死，它就会产生爆炸并且传播身上的蘑菇。可以用蘑菇煲繁殖。"]
+			id: "365AD0B3FADC70B1"
+			tasks: [{
+				id: "4A654648C41C79D9"
+				type: "observation"
+				title: "蘑菇君"
+				icon: {
+					id: "alexsmobs:spawn_egg_mungus"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:mungus"
+			}]
+			rewards: [
+				{
+					id: "57DE95FD347B41B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6A2376672884C884"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+				{
+					id: "7D7686B69A1B8DF5"
+					type: "command"
+					title: "让一名玩家受怀疑（多人游戏中效果更好，但可能会适得其反）"
+					icon: {
+						id: "kubejs:magnifier"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					command: "/tellraw @a [{\"text\":\"<\"},{\"selector\":\"@r\"},{\"text\":\"> 我觉得\"},{\"selector\":\"@r\"},{\"text\":\"很可疑\"}]"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:platypus"
+				}
+			}
+			x: 2.5d
+			y: 1.0d
+			description: [
+				"鸭嘴兽是一种生活在河流的奇特小动物。它会以带毒的攻击返还给攻击者。可以用龙虾尾繁殖。"
+				"它还有一种特殊的能力，当被喂了红石后，它就会寻找黏土块并挖掘，从中找出蛆和黏土球。"
+			]
+			id: "36086B5B081E1FE7"
+			tasks: [{
+				id: "7A86119EE7CA0E32"
+				type: "observation"
+				title: "鸭嘴兽"
+				icon: {
+					id: "alexsmobs:spawn_egg_platypus"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:platypus"
+			}]
+			rewards: [{
+				id: "7BCA9F8F78AB1428"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:tasmanian_devil"
+				}
+			}
+			x: -4.0d
+			y: 0.5d
+			description: ["袋獾是一种生活在温带森林的小生物。它们会成群地发出噪声。受到攻击时，也会自主防卫。给它喂腐肉时，它会在一段时间内发出吼叫来吓走所有怪物。它们不能被驯服，但可以用肉繁殖。"]
+			id: "44E83C7E2B80B35F"
+			tasks: [{
+				id: "7718FF131B0BF706"
+				type: "observation"
+				title: "袋獾"
+				icon: {
+					id: "alexsmobs:spawn_egg_tasmanian_devil"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:tasmanian_devil"
+			}]
+			rewards: [{
+				id: "61721ACBF1603562"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:raccoon"
+				}
+			}
+			x: -3.0d
+			y: -8.0d
+			description: ["浣熊生活在平原和森林，通常都在搜寻食物。如果玩家手里拿了食物，它会过来乞讨，但有时也会直接从箱子中偷食物。它会在附近的水里清洗食物。可以在水附近用鸡蛋驯服，用面包繁殖。"]
+			id: "5AF05B20BB414210"
+			tasks: [{
+				id: "49FC758D86668539"
+				type: "observation"
+				title: "浣熊"
+				icon: {
+					id: "alexsmobs:spawn_egg_raccoon"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:raccoon"
+			}]
+			rewards: [{
+				id: "5C0FF384D71A826C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:gazelle"
+				}
+			}
+			x: -5.0d
+			y: -8.0d
+			description: ["瞪羚是一种生活在萨瓦纳平原的小型生物，它非常胆小，遇到危险时会成群逃跑。"]
+			id: "617FBFA90048602D"
+			tasks: [{
+				id: "40DBF5969ABB4E8F"
+				type: "observation"
+				title: "瞪羚"
+				icon: {
+					id: "alexsmobs:spawn_egg_gazelle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:gazelle"
+			}]
+			rewards: [{
+				id: "535B1936F6BCB6D6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:fly"
+				}
+			}
+			x: -10.5d
+			y: -2.5d
+			description: ["这种烦人的虫子在主世界几乎随处可见。它们会追咬僵尸直到濒死。可以用腐肉繁殖。记住，不要把它们放到下界去...."]
+			id: "49AB71E75762D0B9"
+			tasks: [{
+				id: "3F5513E24A79A11D"
+				type: "checkmark"
+				title: "遇见苍蝇"
+			}]
+			rewards: [
+				{
+					id: "2C6DFA122BB1BD9B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2C8DE4BB015C40D5"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "670A7C3428CBDB4F"
+					type: "item"
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:moose"
+				}
+			}
+			x: -5.0d
+			y: -3.5d
+			description: [
+				"驼鹿是一种生活在冻原和针叶林的大型动物，虽然是中立生物但有能力保护自己。"
+				"可以用蒲公英繁殖。"
+			]
+			id: "3705153037F1DDEE"
+			tasks: [{
+				id: "6033D9052F201CE6"
+				type: "observation"
+				title: "驼鹿"
+				icon: {
+					id: "alexsmobs:spawn_egg_moose"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:moose"
+			}]
+			rewards: [
+				{
+					id: "79451D01310FF620"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5BA7C20198D9039A"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:komodo_dragon"
+				}
+			}
+			x: -18.0d
+			y: 0.5d
+			description: [
+				"科莫多巨蜥是你所见过最大的蜥蜴，生活在恶地。它们会攻击几乎所有东西，所以要小心它们充满毒性的攻击。"
+				"如果给它们非常多的腐肉，它们就能被驯服，它们会尽力保护自己的朋友，并且是一个很好的坐骑。"
+			]
+			id: "6BC74F4BAEA808FF"
+			tasks: [{
+				id: "4B357D8812F881B3"
+				type: "observation"
+				title: "科莫多巨蜥"
+				icon: {
+					id: "alexsmobs:spawn_egg_komodo_dragon"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:komodo_dragon"
+			}]
+			rewards: [{
+				id: "2F797E77AFEA73A8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:roadrunner"
+				}
+			}
+			x: -8.5d
+			y: 0.5d
+			description: ["走鹃是一种生活在沙漠和恶地的快速行走鸟类。响尾蛇是它们的天敌。可以用蛆繁殖。"]
+			id: "32F7D28F7B29709C"
+			tasks: [{
+				id: "04AD791F15719F0C"
+				type: "observation"
+				title: "走鹃"
+				icon: {
+					id: "alexsmobs:spawn_egg_roadrunner"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:roadrunner"
+			}]
+			rewards: [{
+				id: "751F3F802322873E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:centipede_head"
+				}
+			}
+			x: -18.5d
+			y: 3.5d
+			description: ["生活在地底深处的稀有虫子。它移动缓慢，但有着强力且充满毒性的撕咬攻击。"]
+			id: "3231E98238491AF0"
+			tasks: [{
+				id: "1CBFA39AB4589B71"
+				type: "observation"
+				title: "洞穴蜈蚣"
+				icon: {
+					id: "alexsmobs:spawn_egg_centipede"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:centipede_head"
+			}]
+			rewards: [
+				{
+					id: "6DA04C9E1A2BF052"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0F4D828CDC2086CC"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7DCDAF91EBE72A66"
+					type: "item"
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:cockroach"
+				}
+			}
+			x: -12.0d
+			y: 4.5d
+			description: [
+				"蟑螂可以在地底洞穴的角落找到。它们平时害怕人类，可以喂它们糖或面包来让它们更放下警惕。它们也会吃掉在地上的任何食物。"
+				"它们最独特的能力是丢掉头来换取逃跑机会。可以用糖繁殖。"
+			]
+			id: "3B5935EFBF9C27D7"
+			tasks: [{
+				id: "47F5DCA1294B0DEB"
+				type: "observation"
+				title: "蟑螂"
+				icon: {
+					id: "alexsmobs:spawn_egg_cockroach"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:cockroach"
+			}]
+			rewards: [{
+				id: "061AD01051C06419"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:lobster"
+				}
+			}
+			x: 5.0d
+			y: 2.0d
+			description: ["龙虾是一种生活在海滩附近水域的小型海洋生物。它们会钳住任何对它们有敌意的东西，但通常不会追逐。会有不同的颜色。"]
+			id: "493146EF96766BF4"
+			tasks: [{
+				id: "04232F2D49033D32"
+				type: "observation"
+				title: "龙虾"
+				icon: {
+					id: "alexsmobs:spawn_egg_lobster"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:lobster"
+			}]
+			rewards: [{
+				id: "0D3AE27787779FE9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:blobfish"
+				}
+			}
+			x: 6.5d
+			y: 1.5d
+			description: ["这种.....黏黏的鱼通常能在海洋深处找到。当对它使用史莱姆球时，它就会获得在陆地生存的能力。"]
+			id: "2142DDB9A0AF6B94"
+			tasks: [{
+				id: "3ED5AAA8C71CB733"
+				type: "observation"
+				title: "水滴鱼"
+				icon: {
+					id: "alexsmobs:spawn_egg_blobfish"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:blobfish"
+			}]
+			rewards: [{
+				id: "2E6F7297801F88E0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:hammerhead_shark"
+				}
+			}
+			x: 9.0d
+			y: 3.5d
+			description: ["锤头鲨是暖水海洋中的大型生物。它是半血以下的所有生物的天敌。"]
+			id: "2C2D57D238A96C47"
+			tasks: [{
+				id: "32CBFE9471A8B5D5"
+				type: "observation"
+				title: "锤头鲨"
+				icon: {
+					id: "alexsmobs:spawn_egg_hammerhead_shark"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:hammerhead_shark"
+			}]
+			rewards: [{
+				id: "20ECCF756CC54EDE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:endergrade"
+				}
+			}
+			x: 8.5d
+			y: 8.5d
+			description: ["末影缓步兽是一种生活在末地的和平的飘浮生物，它们喜欢一整天飘在紫颂果林附近，时不时吃一个紫颂果。你可以用紫颂果吸引一只末影缓步兽，还可以用紫颂果繁殖它们。"]
+			id: "3CD714A755372F99"
+			tasks: [{
+				id: "4D0FF467DC7E8FF7"
+				type: "observation"
+				title: "末影缓步兽"
+				icon: {
+					id: "alexsmobs:spawn_egg_endergrade"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:endergrade"
+			}]
+			rewards: [{
+				id: "453DF25531B70071"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:bone_serpent"
+				}
+			}
+			x: -11.0d
+			y: 15.0d
+			description: ["骨蟒生活在下界的熔岩湖中，它会捕猎几乎所有东西，尤其是凋零骷髅。"]
+			id: "6C2B0968097E6A03"
+			tasks: [{
+				id: "20A07548BED44AD5"
+				type: "observation"
+				title: "骨蟒"
+				icon: {
+					id: "alexsmobs:spawn_egg_bone_serpent"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:bone_serpent"
+			}]
+			rewards: [{
+				id: "0370ACA924ABCEFF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "遭遇悬熊"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:dropbear"
+				}
+			}
+			x: -14.0d
+			y: 9.5d
+			description: ["悬熊是一种生活在下界荒地的恶魔生物。它会悬在天花板上等待猎物从下方经过，然后一跃而下攻击猎物。"]
+			id: "0544039A394BA4C5"
+			tasks: [{
+					id: "02FCD11BA9A44382"
+					type: "observation"
+					title: "Dropbear"
+					icon: {
+						id: "alexsmobs:spawn_egg_dropbear"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 0L
+					observe_type: 5
+					to_observe: "alexsmobs:dropbear"
+				}]
+			rewards: [{
+				id: "2B0A0D2830DC0523"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			description: ["这种由熊的毛发和力量药水制成的药剂，能够给予使用者击退抗性。"]
+			dependencies: ["11AD9C3E6F7ED206"]
+			id: "2655420D8A840C65"
+			tasks: [{
+				id: "7F6CA93CB8FA72D9"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:knockback_resistance"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F36BF0D45D44C77"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: 19.0d
+			description: [
+				"将绯红孑孓放入衣壳体能将其转变成一只神秘蠕虫。"
+				""
+				"同样能在末影学家职业的村民处购买获得。"
+			]
+			dependencies: [
+				"6D5AA599D202F0AF"
+				"57D3C1E86A23E5AD"
+			]
+			id: "0A1A1F6A482BB296"
+			tasks: [{
+				id: "249A2A1868AAD076"
+				type: "item"
+				item: {
+					id: "alexsmobs:mysterious_worm"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "07246D61E2650F95"
+					type: "xp"
+					xp: 101
+				}
+				{
+					id: "5B1B638F98FC6015"
+					type: "item"
+					item: {
+						id: "buddycards:pack.1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6FED21B7D6A2E607"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [{
+								Duration: 25
+								Id: -125
+								Amplifier: 20
+							}]
+							Potion: "minecraft:mundane"
+							display: {
+								Name: "{\"text\":\"工程师药水\",\"italic\":false,\"color\":\"gold\"}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:void_worm"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.5d
+			y: 17.5d
+			description: ["将蠕虫扔进末地的虚空中，就会召唤出虚空蠕虫"]
+			dependencies: ["0A1A1F6A482BB296"]
+			id: "46341B81ACA2EB15"
+			tasks: [{
+				id: "3734CCEE432FFA8D"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/void_worm_kill"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4487D3DADB1C5410"
+					type: "ftbmoney:money"
+					ftb_money: 125L
+				}
+				{
+					id: "37062AD50D6FA2DE"
+					type: "item"
+					item: {
+						id: "kubejs:monster_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 16.0d
+			description: ["虚空蠕虫的掉落物能制作维度撕裂者，这个工具可以将你和其他生物传送到出生点，甚至能跨维度！"]
+			dependencies: ["46341B81ACA2EB15"]
+			id: "5F4CFD972564982A"
+			tasks: [{
+				id: "124D57AA07A6F5D0"
+				type: "item"
+				item: {
+					id: "alexsmobs:dimensional_carver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B6D6C5E0BAA9B16"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:mending_mixture"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: 16.0d
+			description: ["这个方块被红石充能后，会对咬住的生物造成伤害。"]
+			dependencies: ["46341B81ACA2EB15"]
+			id: "58B16EC56568A6DC"
+			tasks: [{
+				id: "4EB2D2B7F848DDA3"
+				type: "item"
+				item: {
+					id: "alexsmobs:void_worm_beak"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2560594503EDCE97"
+				type: "choice"
+				table_id: 3680913278004027102L
+			}]
+		}
+	]
+}
