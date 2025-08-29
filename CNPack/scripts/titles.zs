@@ -30,12 +30,12 @@ CTEventManager.register<MCPlayerLoggedInEvent>((event) => {
 		} else {
 		if (player.getPersistentData().contains("feedbackNotified"))
 			return;
-		world.asServerWorld().server.executeCommand("tellraw " + username + ' [{"text":"欢迎游玩","color":"white"},{"text":"RAD 2！","color":"green"},{"text":"查看","color":"white"},{"text":"位于","color":"gold"},{"translate":"item.ftbquests.book","color":"white"},{"text":"的职业专精章节","color":"white"},{"text":"选择你的初始套装。其中也包含一些实用信息和很多","color":"white"},{"text":"任务！","color":"green"}]', true);
-	}
+		world.asServerWorld().server.executeCommand("tellraw " + username + ' [{"text":"欢迎来到 ","color":"white"},{"text":"RAD\u00A02！","color":"green"},{"text":"请查看","color":"white"},{"translate":"item.ftbquests.book","color":"white"},{"text":"中的","color":"white"},{"text":"职业专精","color":"gold"},{"text":"章节来选取你的初始套装。书中还包含许多有用信息和大量的","color":"white"},{"text":"任务！","color":"green"}]', true);	
+		}
 
 		if (player.getPersistentData().contains("feedbackNotified"))
 			return;
-		world.asServerWorld().server.executeCommand("execute if score dummy GameState matches 2.. run tellraw " + username + ' [{"text":"由于你加入了处于专家或大师模式的服务器，你可以在","color":"gold"},{"translate":"item.ftbquests.book","color":"gold"},{"text":"中领取新手助力套装以提升到铁制装备所需的等级。","color":"gold"}]', true);
+		world.asServerWorld().server.executeCommand("execute if score dummy GameState matches 2.. run tellraw " + username + ' [{"text":"由于你加入了专家或大师模式的服务器，","color":"gold"},{"translate":"item.ftbquests.book","color":"gold"},{"text":"中提供了一个新手助力礼包，能为你提供一些经验值以更快获得铁质装备。","color":"gold"}]', true);
 		player.updatePersistentData({feedbackNotified: 1});
 		world.asServerWorld().server.executeCommand('execute if score dummy GameState matches 2.. run ftbquests change_progress ' + username + ' complete 2358E374BEAF092F', true);
 

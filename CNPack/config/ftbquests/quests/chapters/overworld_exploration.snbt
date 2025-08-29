@@ -2900,7 +2900,7 @@
 			]
 		}
 		{
-			title: "Let's make a Mesh!"
+			title: "让我们做点网吧！"
 			x: 6.0d
 			y: 3.0d
 			description: [
@@ -2909,7 +2909,7 @@
 				""
 				"矮草和mc原版的草都可以用于合成。"
 			]
-			dependencies: ["02ED7F720C5EBABD"]
+			dependencies: ["518DF4A178673014"]
 			id: "0D53B0136F089B1F"
 			tasks: [
 				{
