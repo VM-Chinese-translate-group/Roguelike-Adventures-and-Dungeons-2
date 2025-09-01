@@ -522,7 +522,7 @@
 			}
 			x: 3.0d
 			y: 6.0d
-			subtitle: "收集并制作\"未完成的\"森林中每种由木头制成的方块，并且对此感到疑问。"
+			subtitle: "收集并制作“未完成的”森林中每种由木头制成的方块，并且对此感到疑问。"
 			id: "1628D6C6E5CB1CBB"
 			tasks: [{
 				id: "0BBB182F4D8BDDEC"
@@ -640,7 +640,7 @@
 			x: 6.0d
 			y: 6.0d
 			subtitle: "破坏500个刷怪笼"
-			description: ["在\"迎战!\"章节中完成破坏500个刷怪笼任务。"]
+			description: ["在“迎战！”章节中完成破坏500个刷怪笼任务。"]
 			dependencies: ["40FF66BE65AF171D"]
 			id: "4B455D9DA6A65FFC"
 			tasks: [{
@@ -683,7 +683,7 @@
 			tasks: [{
 				id: "545571FE4CECB9D2"
 				type: "checkmark"
-				title: "仍在搜寻最终Boss..."
+				title: "仍在搜寻最终Boss……"
 			}]
 		}
 		{

@@ -12,7 +12,7 @@
 		x: 0.5d
 		y: -0.5d
 		shape: "octagon"
-		subtitle: "为什么有这些任务？只是为了解暑..."
+		subtitle: "为什么有这些任务？只是为了解暑……"
 		description: ["离开这个维度的方法与来时一样，不会生成传送门。"]
 		dependencies: ["59140870FC7DE344"]
 		size: 2.0d

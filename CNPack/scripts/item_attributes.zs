@@ -3,15 +3,15 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.util.text.MCTextComponent;
 
 //dungeons gear "why is a bat following me" annoying questions fix
-<item:dungeons_gear:spelunker_helmet>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760...\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
-<item:dungeons_gear:spelunker_chestplate>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760...\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
-<item:dungeons_gear:spelunker_leggings>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760...\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
-<item:dungeons_gear:spelunker_boots>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760...\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
+<item:dungeons_gear:spelunker_helmet>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760\u2026\u2026\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
+<item:dungeons_gear:spelunker_chestplate>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760\u2026\u2026\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
+<item:dungeons_gear:spelunker_leggings>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760\u2026\u2026\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
+<item:dungeons_gear:spelunker_boots>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760\u2026\u2026\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
 
-<item:dungeons_gear:cave_crawler_helmet>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760...\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
-<item:dungeons_gear:cave_crawler_chestplate>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760...\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
-<item:dungeons_gear:cave_crawler_leggings>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760...\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
-<item:dungeons_gear:cave_crawler_boots>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760...\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
+<item:dungeons_gear:cave_crawler_helmet>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760\u2026\u2026\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
+<item:dungeons_gear:cave_crawler_chestplate>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760\u2026\u2026\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
+<item:dungeons_gear:cave_crawler_leggings>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760\u2026\u2026\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
+<item:dungeons_gear:cave_crawler_boots>.addTooltip("\u53ec\u5524\u4e00\u53ea\u5431\u5431\u53eb\u7684\u8759\u8760\u2026\u2026\u5b83\u6ca1\u4ec0\u4e48\u7528\uff0c\u4f46\u5b83\u5c31\u5728\u90a3\u3002");
 
 //fallback in case a mob spawns with it
 <item:blue_skies:debug_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "5dea655f-2321-4af0-8f17-a66e8ce6f0f4", "\u4f24\u5bb3\u524a\u5f31", -1, MULTIPLY_TOTAL, [<equipmentslottype:mainhand>]);
@@ -82,7 +82,7 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:tombstone:christmas_hat>.anyDamage().addTooltip("\u5e78\u8fd0+3\uff0c\u901f\u5ea6+0.02");
 
 //passages toll warning tooltip
-<item:meetyourfight:passages_toll>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("\u4f7f\u7528\u9700\u6d88\u801710\u7ea7\u7ecf\u9a8c\u3002\u4f1a\u6709\u70b9\u523a\u75db...").setStyle(<formatting:red>));
+<item:meetyourfight:passages_toll>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("\u4f7f\u7528\u9700\u6d88\u801710\u7ea7\u7ecf\u9a8c\u3002\u4f1a\u6709\u70b9\u523a\u75db\u2026\u2026").setStyle(<formatting:red>));
 
 //keepsake casket tooltip
 <item:twilightforest:keepsake_casket>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("\u5982\u679c\u8fd9\u4e2a\u7269\u54c1\u5728\u4f60\u7684\u7269\u54c1\u680f\uff0c\u5f53\u4f60\u6b7b\u540e\uff0c\u5b83\u4f1a\u51fa\u73b0\u5728\u4f60\u7684\u6b7b\u4ea1\u70b9\u5e76\u4e3a\u4f60\u4fdd\u7559\u7269\u54c1\u3002\u8b66\u544a\uff1a\u53ef\u80fd\u4f1a\u5361\u5230\u91cd\u751f\u70b9\u3002").setStyle(<formatting:yellow>));

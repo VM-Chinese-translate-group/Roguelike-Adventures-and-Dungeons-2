@@ -40,13 +40,13 @@
 			y: 2.0d
 			description: [
 				"生活调味料：马铃薯版（Spice of Life: Potato Edition）能让你在吃多种食物后获得多种增益。"
-				"悬停在食物上来查看它们提供的营养种类和营养值(NUs)。"
+				"悬停在食物上来查看它们提供的营养种类和营养值（NUs）。"
 				""
 				"根据最近一段时间饮食多样化的程度，你会获得不同增益。"
 				"- 蓝色区域会显示你目前的每种营养等级。"
-				"- 绿线会显示\"目标\"区域的界限。"
-				"- 左侧红线会显示\"营养不良\"的界限。"
-				"- 右侧红线会显示\"饱食\"的界限。"
+				"- 绿线会显示“目标”区域的界限。"
+				"- 左侧红线会显示“营养不良\”的界限。"
+				"- 右侧红线会显示“饱食”的界限。"
 				""
 				"你需要保持饮食多样化来持续获得这些增益。这鼓励你搭建食物自动化，也鼓励你吃更多东西，就像胡萝卜版一样。"
 				""
@@ -78,7 +78,7 @@
 			tasks: [{
 				id: "01EA018DC5205DBA"
 				type: "item"
-				title: "任何#forge:workbench"
+				title: "任意#forge:workbench"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -109,7 +109,7 @@
 			tasks: [{
 				id: "4A2AD7B3B078CCFD"
 				type: "item"
-				title: "任何#minecraft:logs"
+				title: "任意#minecraft:logs"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -645,7 +645,7 @@
 				{
 					id: "167A4AB1CA44A420"
 					type: "item"
-					title: "任何#forge:ingots/tin"
+					title: "任意#forge:ingots/tin"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -701,7 +701,7 @@
 				{
 					id: "3CD99AD47F5C8882"
 					type: "item"
-					title: "任何#forge:ingots/copper"
+					title: "任意#forge:ingots/copper"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -740,7 +740,7 @@
 				{
 					id: "761E68267A9E38B3"
 					type: "item"
-					title: "任何#forge:ingots/silver"
+					title: "任意#forge:ingots/silver"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -796,7 +796,7 @@
 				{
 					id: "32A2B99CC144E938"
 					type: "item"
-					title: "任何#forge:gems/sapphire"
+					title: "任意#forge:gems/sapphire"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -867,7 +867,7 @@
 				{
 					id: "116BFD5CD970A68F"
 					type: "item"
-					title: "任何#forge:ingots/lead"
+					title: "任意#forge:ingots/lead"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -919,7 +919,7 @@
 			tasks: [{
 				id: "1CE86177C64AD58B"
 				type: "item"
-				title: "任何#minecraft:beds"
+				title: "任意#minecraft:beds"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -989,7 +989,7 @@
 			tasks: [{
 				id: "0995187A5468E252"
 				type: "item"
-				title: "任何#forge:obsidian"
+				title: "任意#forge:obsidian"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1030,7 +1030,7 @@
 			tasks: [{
 				id: "26CFFADD8427EB7A"
 				type: "item"
-				title: "任何#forge:bookshelves"
+				title: "任意#forge:bookshelves"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1101,7 +1101,7 @@
 			tasks: [{
 				id: "5455CD298723186E"
 				type: "item"
-				title: "任何#storagedrawers:drawers"
+				title: "任意#storagedrawers:drawers"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1382,7 +1382,7 @@
 			tasks: [{
 				id: "092A1CD36EC4FE13"
 				type: "item"
-				title: "任何#questtag:sleepingbag"
+				title: "任意#questtag:sleepingbag"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1435,7 +1435,7 @@
 			tasks: [{
 				id: "101265A52585691D"
 				type: "item"
-				title: "任何#minecraft:boats"
+				title: "任意#minecraft:boats"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1516,7 +1516,7 @@
 				""
 				"你需要四个附魔物品和一些经验."
 				""
-				"然后，将附魔物品放在各个柱子上（指向柱子然后右键）。"
+				"然后，将附魔物品放在各个柱子上（指向柱子然后右击）。"
 				""
 				"四个柱子被放置物品后，祭坛就会开始吸收附近玩家的经验。"
 				""
@@ -1976,7 +1976,7 @@
 			subtitle: "提升你的挖掘速度、时运等级并提供可开关的夜视。"
 			description: [
 				""
-				"查看\"神秘遗物\"章节了解更多信息！"
+				"查看“神秘遗物\”章节了解更多信息！"
 			]
 			dependencies: ["446936F80D06B8A4"]
 			id: "4CC0C281BCE93043"
@@ -2124,7 +2124,7 @@
 				"例如，它可以将羊毛转换为线，将树皮转换为纸，或将破损的皮革盔甲转换为皮革。"
 				""
 				"当然，做饭也离不开它："
-				"前往\"农夫乐事\"章节查看更多信息！"
+				"前往“农夫乐事”章节查看更多信息！"
 			]
 			dependencies: ["0D53B0136F089B1F"]
 			id: "01F975837F68C5EC"
@@ -2405,7 +2405,7 @@
 			description: [
 				"这个包鼓励玩家用不同的方式游玩，包括流浪探险！"
 				""
-				"这些物品能帮助你探险。虽然收集它们需要花费一些时间..."
+				"这些物品能帮助你探险。虽然收集它们需要花费一些时间……"
 			]
 			dependencies: [
 				"6564CCC871E811E4"
@@ -3386,7 +3386,7 @@
 			description: [
 				"玩家可以在每次使用墓碑灵魂附魔物品时获得知识点数，当灵魂从容器中被释放后，向附近的装饰性坟墓使用祈祷之安卡祷告（冷却时间为6个游戏时）。也可以通过完成墓碑成就获得点数。"
 				""
-				"这些点数能让你在一个特殊的GUI中解锁一些额外奖励（快捷键默认不绑定，你需要在\"杂项\"中更改）。"
+				"这些点数能让你在一个特殊的GUI中解锁一些额外奖励（快捷键默认不绑定，你需要在“杂项”中更改）。"
 				""
 				"额外奖励都与墓碑特性有关。"
 			]
@@ -3448,7 +3448,7 @@
 				{
 					id: "476032839F26BC6D"
 					type: "item"
-					title: "任何#tombstone:decorative_graves"
+					title: "任意#tombstone:decorative_graves"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -3749,7 +3749,7 @@
 			tasks: [{
 				id: "58F2E3554C7C2C33"
 				type: "item"
-				title: "任何#spartanweaponry:iron_weapons"
+				title: "任意#spartanweaponry:iron_weapons"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -3788,7 +3788,7 @@
 			x: 24.0d
 			y: -1.0d
 			shape: "octagon"
-			description: ["查看\"特性|机制\"章节查看关于专家模式的详细信息。"]
+			description: ["查看“特性|机制”章节查看关于专家模式的详细信息。"]
 			dependencies: ["25045A0059F4E280"]
 			size: 2.0d
 			id: "07CCE1397519FEDA"

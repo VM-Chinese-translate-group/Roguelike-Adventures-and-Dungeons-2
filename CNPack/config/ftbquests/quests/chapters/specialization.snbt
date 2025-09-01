@@ -3951,7 +3951,7 @@
 			x: 7.5d
 			y: 2.5d
 			description: [
-				"任何宠物都可以装备玩家的护甲，只需要潜行右键它们。"
+				"任何宠物都可以装备玩家的护甲，只需要潜行右击它们。"
 				""
 				"长笛能够将你站着的宠物立即传送到你身边。当宠物即将落入熔岩或处于危险时很好用。"
 			]
@@ -4322,7 +4322,7 @@
 				{
 					id: "4F2626E223C35FE7"
 					type: "item"
-					title: "任何#forge:hay_bales"
+					title: "任意#forge:hay_bales"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -4939,7 +4939,7 @@
 			}
 			x: 0.0d
 			y: 4.0d
-			description: ["潜行右键船即可访问它的内部存储空间。"]
+			description: ["潜行右击船即可访问它的内部存储空间。"]
 			dependencies: ["7FE110B6FD08031B"]
 			optional: true
 			id: "5835821DED0B50BB"
@@ -5348,7 +5348,7 @@
 				{
 					id: "7729F05C84004CA8"
 					type: "item"
-					title: "任何#forge:leather"
+					title: "任意#forge:leather"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -5784,7 +5784,7 @@
 			description: [
 				"骑乘犬升级能让你的小狗变成坐骑。"
 				"这个长矛会在你骑着什么的时候增加伤害。"
-				"然后...你就成了小狗骑士！"
+				"然后……你就成了小狗骑士！"
 			]
 			dependencies: ["18156A17C2B04B79"]
 			optional: true

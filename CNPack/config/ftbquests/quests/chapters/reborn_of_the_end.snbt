@@ -4094,7 +4094,7 @@
 		{
 			x: 4.5d
 			y: -4.5d
-			description: ["潜影贝的坚硬保护壳。如果你想，你可以把它戴在头上..."]
+			description: ["潜影贝的坚硬保护壳。如果你想，你可以把它戴在头上……"]
 			dependencies: ["3697C11949A0A907"]
 			id: "1BEA85235B47FA5B"
 			tasks: [{
@@ -4209,7 +4209,7 @@
 			tasks: [{
 				id: "7B8E7F01FE2474A8"
 				type: "item"
-				title: "任何#betterendforge:hammers"
+				title: "任意#betterendforge:hammers"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -4368,7 +4368,7 @@
 			}
 			x: -2.5d
 			y: 4.5d
-			subtitle: "末影螨从蠹虫那学习了一些东西..."
+			subtitle: "末影螨从蠹虫那学习了一些东西……"
 			description: [""]
 			dependencies: ["3D208B95463DFD24"]
 			optional: true

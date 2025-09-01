@@ -305,7 +305,7 @@
 			icon: "eidolon:candle"
 			x: -0.5d
 			y: -1.0d
-			description: ["搭建祭坛，向黑暗领主祈祷。进行献祭升级你的祭坛，提高主对你的好感，主会告诉你如何获得强大力量..."]
+			description: ["搭建祭坛，向黑暗领主祈祷。进行献祭升级你的祭坛，提高主对你的好感，主会告诉你如何获得强大力量……"]
 			dependencies: ["33CDFA7BEC28AAE4"]
 			id: "13C7EDEC0BC8386F"
 			tasks: [{

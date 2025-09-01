@@ -617,7 +617,7 @@
 			x: 4.0d
 			y: -6.5d
 			subtitle: "用这个炫酷的灯笼把怪物们拒之门外！"
-			description: ["与主世界不同，这个世界的怪物可以生成在光源之中。这个方块可以阻止他们生成。"]
+			description: ["与主世界不同，这个世界的怪物可以生成在光源之中。这个方块可以阻止它们生成。"]
 			dependencies: [
 				"55F576A9B46CDEE9"
 				"51C0535FF6ABCB08"
@@ -1073,7 +1073,7 @@
 			x: 12.0d
 			y: -2.5d
 			shape: "hexagon"
-			subtitle: "我推荐在与这颗活体大树战斗前，先准备一把本模组的斧头和矛，不然你的游戏体验可能会不太好..."
+			subtitle: "我推荐在与这颗活体大树战斗前，先准备一把本模组的斧头和矛，不然你的游戏体验可能会不太好……"
 			dependencies: ["6D75A9B7EE136A30"]
 			size: 1.5d
 			id: "3EBFB973D7E9DF7D"
@@ -2471,7 +2471,7 @@
 		{
 			x: 8.0d
 			y: 5.0d
-			subtitle: "我没法把召唤石头叫做\"炼金\""
+			subtitle: "我没法把召唤石头叫做“炼金”"
 			dependencies: ["50D7B576C27AE274"]
 			id: "03A7C00B4DB2FAAC"
 			tasks: [{
