@@ -21,9 +21,16 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-left
-  x = 1
+  x = 35
   action = movebutton
-  y = 15
+  y = 5
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 160
+  action = resizebutton
+  height = 30
 }
 
 customization {
@@ -79,16 +86,16 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-left
-  x = 1
+  x = 44
   action = movebutton
-  y = 37
+  y = 38
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 117
+  width = 65
   action = resizebutton
-  height = 20
+  height = 28
 }
 
 customization {
@@ -109,16 +116,16 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-left
-  x = 138
+  x = 124
   action = movebutton
-  y = 37
+  y = 38
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 63
+  width = 65
   action = resizebutton
-  height = 24
+  height = 28
 }
 
 customization {
@@ -168,9 +175,16 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-left
-  x = 1
+  x = 35
   action = movebutton
-  y = -7
+  y = -27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 160
+  action = resizebutton
+  height = 30
 }
 
 customization {

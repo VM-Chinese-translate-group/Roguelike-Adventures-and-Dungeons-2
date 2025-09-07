@@ -38,7 +38,7 @@ customization {
   actionid = a1b34f12-4b6d-4a82-bb16-f76e7a281ad81641053959316
   action = addbutton
   y = -124
-  label = Support the author
+  label = 支持作者
   value = https://www.patreon.com/Dreams01
   height = 20
 }
@@ -47,7 +47,7 @@ customization {
   orientation = bottom-centered
   restartbackgroundanimations = true
   buttonaction = openlink
-  label = Report Bugs
+  label = 报告问题
   loopbackgroundanimations = true
   hoverlabel = Visit Discord
   x = 4
