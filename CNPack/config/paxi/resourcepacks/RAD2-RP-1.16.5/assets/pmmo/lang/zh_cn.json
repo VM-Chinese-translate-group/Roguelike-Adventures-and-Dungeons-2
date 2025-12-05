@@ -6,5 +6,6 @@
   "pmmo.dragonslayer": "巨龙击杀者",
   "pmmo.gathering": "采集",
   "pmmo.levelUpSprintSpeedBonus": "%1$s %2$s 升级了！",
-  "pmmo.gotTooHotDroppedItem": "你没有足够的技能穿戴%1$s！"
+  "pmmo.gotTooHotDroppedItem": "你没有足够的技能穿戴%1$s！",
+  "pmmo.salvagesIntoCountItem": "Salvages into %1$s %2$s §o§7(Sneak and use Smithing Table to salvage)"
 }

@@ -1,0 +1,10 @@
+{
+	id: "0F7AF7448D1B45EC"
+	order_index: 48
+	title: "Experience30"
+	loot_size: 1
+	rewards: [{
+		xp: 3000
+		type: "xp"
+	}]
+}
